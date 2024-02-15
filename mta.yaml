@@ -19,7 +19,7 @@ modules:
     builder: npm
 - name: incident-management-db-deployer
   type: hdb
-  path: ./gen/db
+  path: gen/db
   requires:
   - name: incident-management-db
   parameters:
